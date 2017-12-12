@@ -21,6 +21,15 @@
 <p>December 12th, 2017</p>
 
 <h2>Burn down chart:</h2>
+  <p>
+  Yeah, we crushed the development of this app.  
+  Our innovative pair programing approach, regular sprint stand-up meetings, 
+  and effective segregation of stories to allow simultaneous development of features 
+  allowed us to thrash the development of this app in a transparent, accountable, and 
+  productive manner (while hopefully minimizing our utilization of TA annoyance quota).
+  The results clearly speak for themselves; feel our golden-wrath.
+   </p>
+  
 <img src="https://media.giphy.com/media/6xfFqebpQh8TS/giphy.gif" width="300" height="225" /> 
 <p>This proejcted lasted from Oct 29-Dec 12 (44 days)</p>
 <<a href="http://tinypic.com?ref=1zlya9v" target="_blank"><img src="http://i64.tinypic.com/1zlya9v.png" border="0" alt="Image and video hosting by TinyPic"></a>>
@@ -40,23 +49,68 @@
 <h2>Narrative:</h2>
 <p>
 This sprint was a heavy sprint points wise.  
- We finished the RVSP form parameters first, making sure invalid e-mails were not allowed and that multiple yale e-mails
- were allowed even when combined.  These parameters were challenging to finish and required some trial 
- and error to get it to past the test, but in the end we prevailed.  
- Also, we also created links so when the event was created it was automatically directed to 
- create a new event and made sure the site returned a valid JSON and was searchable.  
- We also did a 10 point run this week, running up and down East rock hill at 7:50 pace. 
- Now the website was passing all the tests and we were staying in shape!
+  We finished the RVSP form parameters first, making sure invalid e-mails were not allowed and that multiple 
+  Yale e-mails were allowed even when combined.  These parameters were challenging to finish and required some
+  trial and error to get it to past the test (thanks for saving the day, Surya!!), but in the end we prevailed. 
+  Also, we created links so when the event was created it was automatically directed to the new event, 
+  made sure the site returned a valid JSON, and was searchable.  We also did a 10 point run this week, 
+  running up and down East rock hill at 7:50 pace (aggressive!). 
+  Double win - passing all the automated tests and staying in shape!
  </p>
 
 <p>
-The last thing we did was complete A/B testing, analyzing the results and seeing who the most generous (see below for results). 
- We went with a minimalist approach for our project design, as our team believes more is less when it comes to event planning.
+   The last thing we did was complete A/B testing, analyze the results, 
+  and determine who the most generous (see below for results).  
+  We went with a minimalist approach for our project design, 
+  our team employed the Jonathan Ive approach to event planning design: less is more. 
+  I hope you enjoy the Donation page.
  </p>
  
+  
+  <h2>A Note About Git Branches:</h2>
+<p>
+ We probably screwed this one up.  We have been using local git branches on our personal IDEs
+  to develop new features, test their integration, and then merge back into the master before 
+  pushing back to GitHub.  Individual developers such as outstanding-mouse had up to 4 different 
+  feature branches going at a time to contain propagation of bugs and ensure smooth integration with
+  the team’s master branch.  However, it was not until this last sprint that we realized branches are
+  only trackable and accessible across the team if pushed to the origin.  We belatedly employed 
+  this strategy to manage rework that had to be done without interrupting ongoing database 
+  integration efforts, but we clearly did not make the extent of our Git utilization strategy
+  transparent to outsiders.  As opposed to our local branch strategy, a much more Agile-embracing
+  approach would have been to create and utilize public (origin/GitHub hosted) branches for
+  feature development, testing/integration, and staging, in addition to our mainline master.  Oops.
+   </p>
+  
+  <p>
+That being said, our team universally 
+    agrees that version control is a mysterious, powerful,
+    and awe-inspiring force that we are not worthy of.  Each one of us has an example
+    about when Git saved the day, from allowing us to trash our crappy attempts and pull
+    back down our known working master code to rolling back to previous commits when 
+    cautious-coyote accidentally overwrote the entire database connection schema for the app. 
+    We <3 Git, and hope that one day, Git will <3 us too.
+  </p>
+  
+  
+   <h2>Traffi findings:</h2>
+ <p>
+We had 12 sources of traffic.  The most common was traffic from SOM (44.15%), 
+   followed by yale.edu (30.32%).  Every other segment was less than 10% with medicine (9.25%),
+   direct (5.8%), law (5.13%) being the top five. May of the others were us or the TAs looking at the website (see chart below). 
+   Our overall conversion rate was .78%, with our group testing being the most generous :). 
+   Of the student groups, law students were the most generous with 2.17% donation rate and stingy
+   SOM students were next with .37% rate.  The medical student loans and future of many years of 
+   residency must have prevented the medical students from donating, with no one contributing. 
+  </p>
+  
+  
  <h2>A/B testing results:</h2>
  <p>
-
+Our experient directed 55 people to donate and 68 people to support. 
+   We found donate to have a much higher conversion rate (7.27) than support (1.47%).
+   This was consistent for all days except Dec 11 (see chart below). 
+   
   </p>
   
  <h2>Special features:</h2>
